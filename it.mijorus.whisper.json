@@ -33,7 +33,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/mijorus/whisper",
-                    "commit": "7f1260ea64e6048c6019be66f17ce5d2acc8045d"
+                    "commit": "eebd95f883494a0f62b8a6cd640631b97c8950c1"
                 }
             ]
         }
