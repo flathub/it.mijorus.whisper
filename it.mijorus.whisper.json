@@ -1,7 +1,7 @@
 {
     "app-id" : "it.mijorus.whisper",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "47",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "command" : "whisper",
     "finish-args" : [
@@ -32,7 +32,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/mijorus/whisper",
-                    "commit": "dec3ceb0505000be9c8ccfe3981d3d41101fea7b"
+                    "commit": "074eaef67036df438be7584b81a5821c3fdfd5ff"
                 }
             ]
         }
