@@ -1,10 +1,10 @@
 {
-    "app-id" : "it.mijorus.whisper",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "whisper",
-    "finish-args" : [
+    "app-id": "it.mijorus.whisper",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "50",
+    "sdk": "org.gnome.Sdk",
+    "command": "whisper",
+    "finish-args": [
         "--share=ipc",
         "--socket=wayland",
         "--socket=pulseaudio",
@@ -12,26 +12,16 @@
         "--device=all",
         "--filesystem=xdg-run/pipewire-0"
     ],
-    "cleanup" : [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a"
-    ],
-    "modules" : [
+    "modules": [
         "python3-requirements.json",
         {
-            "name" : "whisper",
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "whisper",
+            "buildsystem": "meson",
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://github.com/mijorus/whisper",
+                    "type": "git",
+                    "url": "https://github.com/mijorus/whisper",
+                    "x-comment": "The latest commit from the repository",
                     "commit": "d454feeea973433a8f2dcebf2d4e69286619ab87"
                 }
             ]
